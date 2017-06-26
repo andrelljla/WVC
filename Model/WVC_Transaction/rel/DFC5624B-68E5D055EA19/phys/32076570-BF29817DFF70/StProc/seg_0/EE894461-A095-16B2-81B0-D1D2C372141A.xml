@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="CREATE_ACCOUNT_WITH_DATES" directorySegmentName="seg_0" id="EE894461-A095-16B2-81B0-D1D2C372141A">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>CREATE_ACCOUNT_WITH_DATES</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:39 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<owner>201BFD0B-702B-582E-4A1E-3F0CC521546B</owner>
+<source>CREATE OR REPLACE procedure WVC.CREATE_ACCOUNT_WITH_DATES &lt;br/&gt;(&lt;br/&gt;  fileNumber in number &lt;br/&gt;, firstName in varchar2 &lt;br/&gt;, lastName in varchar2 &lt;br/&gt;, firstAppointmentDateKey in number &lt;br/&gt;, lastAppointmentDateKey in number&lt;br/&gt;) as &lt;br/&gt;&lt;br/&gt;/*&lt;br/&gt;*/&lt;br/&gt;begin&lt;br/&gt;  &lt;br/&gt;    -- Write the account record&lt;br/&gt;    insert into account (start_date_key, end_date_key, file_number, last_name, first_name) &lt;br/&gt;      values (firstAppointmentDateKey, lastAppointmentDateKey, fileNumber, lastName, firstName);&lt;br/&gt;  &lt;br/&gt;end create_account_with_dates;</source>
+<body>CREATE OR REPLACE procedure WVC.CREATE_ACCOUNT_WITH_DATES &lt;br/&gt;(&lt;br/&gt;  fileNumber in number &lt;br/&gt;, firstName in varchar2 &lt;br/&gt;, lastName in varchar2 &lt;br/&gt;, firstAppointmentDateKey in number &lt;br/&gt;, lastAppointmentDateKey in number&lt;br/&gt;) as &lt;br/&gt;&lt;br/&gt;/*&lt;br/&gt;*/&lt;br/&gt;begin&lt;br/&gt;  &lt;br/&gt;    -- Write the account record&lt;br/&gt;    insert into account (start_date_key, end_date_key, file_number, last_name, first_name) &lt;br/&gt;      values (firstAppointmentDateKey, lastAppointmentDateKey, fileNumber, lastName, firstName);&lt;br/&gt;  &lt;br/&gt;end create_account_with_dates;</body>
+</StoredProcedureOraclev10g>

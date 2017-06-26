@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STG_TXN_JOURNAL_2000_2016" directorySegmentName="seg_0" id="10D4F3F4-AB3D-CABD-3163-D7A0C848D476">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:37 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6223093A-4F8D-09B7-B584-711FFDCEC162</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_KEY" id="2942FB4D-AF17-66EE-09F9-FF19F4779266">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_QUANTITY" id="310EE7D9-2950-07AD-0E46-35C375248F57">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_AMOUNT" id="544FA802-6CEB-0EC4-F283-69B9D0039315">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSACTION_TYPE_CODE" id="569B1F07-519E-F905-585D-D1F652659C68">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_NUMBER" id="610D7BDC-7EE8-2A68-4E34-9170EEAB3CEE">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_KEY" id="64270B08-AA2E-344E-7D6C-316B5D6BD8F9">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEEN_BY" id="8418CFBB-3EFC-CF8B-4FE8-32D617BFC6E6">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIT_KEY" id="97A2FFFC-0521-FAD5-03BD-47732BBF4A2D">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PATIENT_NAME" id="97DD3E26-4101-2936-7C5C-9DC01E0E59E7">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="9B8AD6C0-CA0E-050A-518F-F033544E54AC">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLIENT_NAME" id="9FA22929-3769-C6F4-8231-960B30C6871B">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_DESCRIPTION" id="B7195C5C-B758-3433-3E93-A742CD6782A7">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="CE6FEE10-B4FA-D9F9-234B-C4ABFCC3338A">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPOINTMENT_DATE" id="D42B5B78-9F49-7B62-1839-1E2194C4D06E">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_CODE" id="E1572F42-0F72-0445-8953-11D5151E4587">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_UNIT_COST" id="F038B871-78B4-73DD-2033-9C9D64E86DBA">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

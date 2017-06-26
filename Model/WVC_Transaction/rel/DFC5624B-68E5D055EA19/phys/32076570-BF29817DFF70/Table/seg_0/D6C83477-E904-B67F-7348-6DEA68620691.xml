@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="VISIT" directorySegmentName="seg_0" id="D6C83477-E904-B67F-7348-6DEA68620691">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:37 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6223093A-4F8D-09B7-B584-711FFDCEC162</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VISIT_DATE_KEY" id="0366ACE1-428F-4D7B-5597-66621624F320">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSERT_USER" id="59D55474-45D0-54AC-B042-F6EA4A5685A8">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIT_ID" id="93B93AB6-5941-F057-FCAC-706A71CDD31D">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DATETIME" id="9AD6DFF1-237B-5435-97CC-AC48497E88D8">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_USER" id="A8CFDBF5-94D7-F664-5622-8E9CB0BA4074">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSERT_DATETIME" id="DE27C75E-F29F-2004-7582-9BFD24258A8A">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_KEY" id="E5CF5CBF-4801-C775-F75E-C6D0BF296325">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VISIT_UK" id="0A42F51D-502F-E063-7FA1-B0DA98B135B1">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<segment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VISIT_PK" id="DAF5E4A2-B973-A955-7724-56CB61ACE589">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<segment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VISIT_CALENDAR_FK" id="74B085B2-3553-692C-1BC0-C68C041D5F43">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:39 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VISIT_ACCOUNT_FK" id="B61CFC8F-8EE4-2488-E883-429A53464ACC">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:39 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VISIT_PK" id="3FC1628C-A2CE-4906-2147-46683226B7FB">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<segment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+<existingIndex>DAF5E4A2-B973-A955-7724-56CB61ACE589</existingIndex>
+<indexSegment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="VISIT_UK" id="21F653AE-0BF3-B373-0523-C040FB7F5755">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<segment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+<existingIndex>0A42F51D-502F-E063-7FA1-B0DA98B135B1</existingIndex>
+<indexSegment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

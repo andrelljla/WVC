@@ -1,0 +1,256 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1641BA28-A61B-A322-1F03-C856FB374690" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="STG_INVOICE_OLD">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>STG_INVOICE_OLD</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:36 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FILE_NUMBER" id="9D61304D-2D17-598F-54DF-12C35EE96906">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>FILE_NUMBER</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENT_NAME" id="60BB243A-B5B9-C7F1-533E-433598431EA2">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>CLIENT_NAME</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="57B9158D-57EC-DBDC-8EC4-7D58ECFEE922">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="601B5FCB-90B1-991B-5D3F-8C2D15EE344D">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEEN_BY" id="8E83D4BC-41E6-2334-A13F-57A95896E713">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>SEEN_BY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_NAME" id="4CB98138-6858-5D22-4FDE-4A754BAEB4ED">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>PATIENT_NAME</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPOINTMENT_DATE" id="C4201B13-5C8E-783E-424F-9AE4B4E5CB00">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>APPOINTMENT_DATE</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSACTION_TYPE_CODE" id="BF686DF7-7388-00EC-B06F-8D1D55D1B418">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>TRANSACTION_TYPE_CODE</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINE_ITEM_CODE" id="B26AD1A2-FF4C-CEAB-08F5-7F105749B44D">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>LINE_ITEM_CODE</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINE_ITEM_DESCRIPTION" id="70263A9B-9474-A054-76E4-C22B8CCB2479">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>LINE_ITEM_DESCRIPTION</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINE_ITEM_QUANTITY" id="8623DD65-BB4B-86B8-44C6-CE8D24CCDCBA">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>LINE_ITEM_QUANTITY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINE_ITEM_UNIT_COST" id="4E43BA9A-1A21-8A13-A48A-942112F0407A">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>LINE_ITEM_UNIT_COST</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINE_ITEM_AMOUNT" id="384DEE0D-1F81-4328-009F-5AEEB13281B4">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>LINE_ITEM_AMOUNT</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_KEY" id="F8F1F7F6-7A31-7EC9-D9A0-6D5D3900324E">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>ACCOUNT_KEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_KEY" id="94F31DA6-9B7E-31F1-2FC1-6A150E2F64C6">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>DATE_KEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISIT_KEY" id="47AC35C2-8944-B66C-7F8B-7172B4F847A3">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>STG_INVOICE_OLD</sourceObjSchema>
+<sourceObjName>VISIT_KEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

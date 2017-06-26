@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ERROR_LOG" directorySegmentName="seg_0" id="1CBA5558-9733-EF6A-406B-D600EAC1618F">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:35 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6223093A-4F8D-09B7-B584-711FFDCEC162</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOG_MESSAGE" id="0EAB6703-F1F9-2020-7A61-193D6674C080">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOG_MACHINE" id="14D5354E-6F1E-1AC6-6FEB-1FB1AB551B50">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_CODE" id="4820F9E2-645C-BA85-7CEE-86EB843C8BC6">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_DATE" id="4A04DBAF-643B-FED4-FE68-185236F22578">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE_BLOCK" id="90F47BD9-D6CD-DC1E-8F62-076D3889BDFE">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOG_USER" id="A716B338-F15C-9E50-DCAD-CB1C9E424928">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOG_PROGRAM" id="CB030168-354B-FCE8-5F3A-51929AE16A60">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

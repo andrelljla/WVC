@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STG_TXN_JOURNAL" directorySegmentName="seg_0" id="E958F16F-D0F5-488C-B49D-F3D37D49C8DF">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:36 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6223093A-4F8D-09B7-B584-711FFDCEC162</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LAST_NAME" id="0109B3EF-9240-70FB-CB9D-4DF42BE069C7">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_CODE" id="182B473B-1A39-3D6C-B5AB-B8EC95354837">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIT_KEY" id="3409F8F5-7A03-4A22-2FBB-F6625749372B">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_KEY" id="350397ED-9E9E-195D-5F55-103DC82984CC">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_QUANTITY" id="379E5544-0019-8FE4-3F7D-2D1D8F501345">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_AMOUNT" id="3D1A0FE9-66E6-91BB-194B-8F92C7FDFD7C">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_UNIT_COST" id="47130E93-F5B2-FC60-0764-3B136C4528CA">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEEN_BY" id="56D661C3-7758-6085-07D8-C4BA168E4F1A">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSACTION_TYPE_CODE" id="5BE0FBF3-80D7-E6EE-FA13-6B1B0DA38BA3">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPOINTMENT_DATE" id="76CF901B-D430-922B-F030-573A8465B813">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLIENT_NAME" id="7D5DF4CC-8467-86BD-AAAF-AA2AEC0FD2E6">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_NUMBER" id="8075D8A5-39CB-E769-85DE-9CB663129567">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_ITEM_DESCRIPTION" id="9C963A0A-E6C2-71BD-807A-B4EB2534F441">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_KEY" id="B606B0E4-2A31-31CD-49AB-93A99670DFBF">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PATIENT_NAME" id="D8E903FC-10A0-AD34-F913-B0917C530556">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="EA8C385E-445A-AE1C-5910-92171C97DA5B">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STG_TXN_JOURNAL_IX2" id="BFC08C66-2641-11B1-984D-B895C919B86F">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<segment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STG_TXN_JOURNAL_IX3" id="DD2E80F1-7DB4-6779-176A-9C50C24A0AC6">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<segment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STG_TXN_JOURNAL_IX1" id="EE5EA647-B100-2FF4-D61B-80B90E0427A8">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<schemaObject>FA09F377-6304-89E7-F9A8-2D47229F8BA3</schemaObject>
+<segment>4C3FCDD9-5B92-15DC-57A9-6FC85A810EEE</segment>
+<tableSpace>39323540-9AF4-D714-E0AD-A0C51EA8B0DA</tableSpace>
+</IndexProxy>
+</indexProxies>
+</TableProxyOraclev11g>

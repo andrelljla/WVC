@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="GET_VISIT_KEY" directorySegmentName="seg_0" id="3BC50101-70B4-A29E-4C8F-B42C5056EFC4">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>GET_VISIT_KEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:39 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<owner>201BFD0B-702B-582E-4A1E-3F0CC521546B</owner>
+<source>CREATE OR REPLACE function WVC.GET_VISIT_KEY &lt;br/&gt;( accountKey in number &lt;br/&gt;, appointmentDateKey in number &lt;br/&gt;) return number as &lt;br/&gt;&lt;br/&gt;  visit_key   number:= 0;&lt;br/&gt;  &lt;br/&gt;begin&lt;br/&gt;&lt;br/&gt;  select visit_id into visit_key &lt;br/&gt;    from visit&lt;br/&gt;    where account_key = accountKey&lt;br/&gt;    and visit_date_key = appointmentDateKey;&lt;br/&gt;    &lt;br/&gt;  return visit_key;&lt;br/&gt;  &lt;br/&gt;  exception when NO_DATA_FOUND then&lt;br/&gt;  &lt;br/&gt;    -- Create a new Visit record and return the ID&lt;br/&gt;    insert into visit (visit_date_key, account_key) values (appointmentDateKey, accountKey);&lt;br/&gt;&lt;br/&gt;    -- retrieve the row just inserted&lt;br/&gt;    select visit_id into visit_key &lt;br/&gt;      from visit&lt;br/&gt;      where account_key = accountKey&lt;br/&gt;      and visit_date_key = appointmentDateKey;&lt;br/&gt;    &lt;br/&gt;    return visit_key;&lt;br/&gt;  &lt;br/&gt;end get_visit_key;</source>
+</FunctionOracle>

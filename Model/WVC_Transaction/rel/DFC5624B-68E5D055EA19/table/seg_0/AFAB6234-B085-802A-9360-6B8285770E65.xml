@@ -1,0 +1,420 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFAB6234-B085-802A-9360-6B8285770E65" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="CALENDAR_DIM">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>CALENDAR_DIM</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:35 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATEKEY" id="835B24DC-0ADD-7AF4-8C81-D53F0CD5F893">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>DATEKEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATECOMMENT" id="4252D0F0-715F-5B5E-5EF0-36264D363241">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>DATECOMMENT</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATEVALUE" id="3A0ECE86-C9CF-B7BC-69BB-8CF74FACF1DE">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>DATEVALUE</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAY" id="BE043C4A-BAA7-9544-D15A-009E08F105CF">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>DAY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYOFWEEK" id="E5EB1265-136C-3003-A474-FD449B70C7D1">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>DAYOFWEEK</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYOFMONTH" id="CBA33AF2-7790-421A-99C3-EA372F89ECAA">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>DAYOFMONTH</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYOFYEAR" id="6DA27364-F0DA-918F-B562-3DA4457B1263">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>DAYOFYEAR</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVIOUSDAY" id="CC12A4B2-14FA-5FF3-C3EF-6FEFE66240C1">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>PREVIOUSDAY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEXTDAY" id="A0D75B4C-05EF-FB97-F822-CA90BD7B518E">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>NEXTDAY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEEKOFYEAR" id="13453C38-826F-7C44-B03A-3FB4FC57A5B8">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>WEEKOFYEAR</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH" id="F0D49126-2AC6-A694-DA7C-7606D4D498F3">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>MONTH</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORTMONTH" id="BADF1625-74D3-8177-54BD-71E7B58F8507">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>SHORTMONTH</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTHOFYEAR" id="EE254099-A52B-FBB8-13D4-7977BED1079B">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>MONTHOFYEAR</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUARTEROFYEAR" id="C6C18144-DC99-B449-F966-A5C836AED720">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>QUARTEROFYEAR</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="9A83BA77-D422-B51F-0512-7508932F2A2D">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEARMONTH_NUM" id="11DC2267-DCF8-C874-D0D2-84868093FD8E">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>YEARMONTH_NUM</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEARMONTH_CHAR" id="05FF6A6F-58CF-81CB-A244-DEF4F1F40C1A">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>YEARMONTH_CHAR</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTHYEAR_CHAR" id="5AE20D7F-F9B3-1973-E944-AE9A0CF6AF26">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>MONTHYEAR_CHAR</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MM_YEAR" id="2C91667B-8180-021C-6009-2C898D4FBD6C">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>MM_YEAR</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH_AGO_DATEKEY" id="675927A3-348D-2D2F-833E-22C5D5364D18">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>MONTH_AGO_DATEKEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR_AGO_DATEKEY" id="DA5CD373-1BC4-01A6-B658-98EEB5B361E6">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>YEAR_AGO_DATEKEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_SINCE_19000101" id="3173C689-BDB3-CB52-38CE-6465410BEF4F">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>CALENDAR_DIM</sourceObjSchema>
+<sourceObjName>DAYS_SINCE_19000101</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA65249C-5D22-8D20-89C2-C12DE9822812" name="CALENDAR_PK">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>CALENDAR_PK</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="835B24DC-0ADD-7AF4-8C81-D53F0CD5F893"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="902BA1E9-5B05-A29E-85FB-435524C5CFA1" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="CALENDAR_DOMMOY_IX3">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>CALENDAR_DOMMOY_IX3</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBA33AF2-7790-421A-99C3-EA372F89ECAA"/>
+<colUsage columnID="EE254099-A52B-FBB8-13D4-7977BED1079B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B486BD15-748C-6110-13B0-B816D632942E" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="CALENDAR_DOM_IX2">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>CALENDAR_DOM_IX2</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBA33AF2-7790-421A-99C3-EA372F89ECAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5F042F2-B572-B2E2-4364-FAB3810C4885" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="CALENDAR_DOY_IX1">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>CALENDAR_DOY_IX1</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DA27364-F0DA-918F-B562-3DA4457B1263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60DFC8CD-7784-B997-4B08-53CF779F01C8" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="CALENDAR_PK">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>CALENDAR_PK</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="835B24DC-0ADD-7AF4-8C81-D53F0CD5F893"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="WVC_Transaction" id="07863BDB-B436-5499-E908-AB7A16F4141E" version="3.5">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:33:29 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>07863BDB-B436-5499-E908-AB7A16F4141E</designId>
+</OSDM_Design>

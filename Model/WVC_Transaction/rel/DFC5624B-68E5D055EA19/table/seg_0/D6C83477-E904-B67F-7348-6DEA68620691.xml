@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6C83477-E904-B67F-7348-6DEA68620691" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="VISIT">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>VISIT</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:37 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VISIT_ID" id="93B93AB6-5941-F057-FCAC-706A71CDD31D">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>VISIT</sourceObjSchema>
+<sourceObjName>VISIT_ID</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISIT_DATE_KEY" id="0366ACE1-428F-4D7B-5597-66621624F320">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>VISIT</sourceObjSchema>
+<sourceObjName>VISIT_DATE_KEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A711EDC-A6F6-511E-271C-47759DDAD04E" referredColumn="835B24DC-0ADD-7AF4-8C81-D53F0CD5F893"/>
+</associations>
+</Column>
+<Column name="ACCOUNT_KEY" id="E5CF5CBF-4801-C775-F75E-C6D0BF296325">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>VISIT</sourceObjSchema>
+<sourceObjName>ACCOUNT_KEY</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B86F72FC-5503-94AE-B781-6F613B48FC37" referredColumn="3B30E248-3B9F-AE2A-65DB-2CE4D2DF6CE4"/>
+</associations>
+</Column>
+<Column name="INSERT_USER" id="59D55474-45D0-54AC-B042-F6EA4A5685A8">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>VISIT</sourceObjSchema>
+<sourceObjName>INSERT_USER</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSERT_DATETIME" id="DE27C75E-F29F-2004-7582-9BFD24258A8A">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>VISIT</sourceObjSchema>
+<sourceObjName>INSERT_DATETIME</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER" id="A8CFDBF5-94D7-F664-5622-8E9CB0BA4074">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>VISIT</sourceObjSchema>
+<sourceObjName>UPDATE_USER</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="9AD6DFF1-237B-5435-97CC-AC48497E88D8">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>VISIT</sourceObjSchema>
+<sourceObjName>UPDATE_DATETIME</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FC1628C-A2CE-4906-2147-46683226B7FB" name="VISIT_PK">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>VISIT_PK</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93B93AB6-5941-F057-FCAC-706A71CDD31D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21F653AE-0BF3-B373-0523-C040FB7F5755" name="VISIT_UK">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>VISIT_UK</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0366ACE1-428F-4D7B-5597-66621624F320"/>
+<colUsage columnID="E5CF5CBF-4801-C775-F75E-C6D0BF296325"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAF5E4A2-B973-A955-7724-56CB61ACE589" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="VISIT_PK">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>VISIT_PK</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93B93AB6-5941-F057-FCAC-706A71CDD31D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A42F51D-502F-E063-7FA1-B0DA98B135B1" schemaObject="FA09F377-6304-89E7-F9A8-2D47229F8BA3" name="VISIT_UK">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>VISIT_UK</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0366ACE1-428F-4D7B-5597-66621624F320"/>
+<colUsage columnID="E5CF5CBF-4801-C775-F75E-C6D0BF296325"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B61CFC8F-8EE4-2488-E883-429A53464ACC" name="VISIT_ACCOUNT_FK">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:39 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5CF5CBF-4801-C775-F75E-C6D0BF296325"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74B085B2-3553-692C-1BC0-C68C041D5F43" name="VISIT_CALENDAR_FK">
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:39 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0366ACE1-428F-4D7B-5597-66621624F320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

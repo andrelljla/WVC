@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ACCOUNT_BU_TRG" directorySegmentName="seg_0" id="902D8A7D-A5D9-12B2-6681-C07FA523979D">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>ACCOUNT_BU_TRG</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:38 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<actions>UPDATE</actions>
+<body>BEGIN&lt;br/&gt;&lt;br/&gt;  :new.update_user := USER;&lt;br/&gt;  :new.update_datetime := SYSDATE;&lt;br/&gt;  &lt;br/&gt;END account_bu_trg;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>201BFD0B-702B-582E-4A1E-3F0CC521546B</owner>
+<table>F48F43C7-FFE5-AE90-97A7-14B7C81D874B</table>
+</TriggerOraclev10g>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="FILE_NUMBER_ASSIGNED" directorySegmentName="seg_0" id="C70CDE8D-F626-DE8A-AD9F-5D7093B511B9">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>FILE_NUMBER_ASSIGNED</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:39 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<owner>201BFD0B-702B-582E-4A1E-3F0CC521546B</owner>
+<source>CREATE OR REPLACE function WVC.FILE_NUMBER_ASSIGNED(fileNumber in integer) return boolean is&lt;br/&gt;  res boolean := false;&lt;br/&gt;begin&lt;br/&gt;  for c1 in ( select 1 from account where file_number = fileNumber and rownum = 1 ) loop&lt;br/&gt;    res := true;&lt;br/&gt;    exit; -- only care about one record, so exit.&lt;br/&gt;  end loop;&lt;br/&gt;  return( res );&lt;br/&gt;end file_number_assigned;</source>
+</FunctionOracle>

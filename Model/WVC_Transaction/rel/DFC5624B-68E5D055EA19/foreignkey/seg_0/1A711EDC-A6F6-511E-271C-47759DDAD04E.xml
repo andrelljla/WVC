@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A711EDC-A6F6-511E-271C-47759DDAD04E" containerWithKeyObject="D6C83477-E904-B67F-7348-6DEA68620691" localFKIndex="74B085B2-3553-692C-1BC0-C68C041D5F43" name="VISIT_CALENDAR_FK">
+<sourceConnName>wvc</sourceConnName>
+<sourceObjSchema>WVC</sourceObjSchema>
+<sourceObjName>VISIT_CALENDAR_FK</sourceObjName>
+<createdBy>jandrews</createdBy>
+<createdTime>2017-06-21 14:53:39 UTC</createdTime>
+<ownerDesignName>WVC_Transaction</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AFAB6234-B085-802A-9360-6B8285770E65</referredTableID>
+<keyObject>EA65249C-5D22-8D20-89C2-C12DE9822812</keyObject>
+<referredKeyID>EA65249C-5D22-8D20-89C2-C12DE9822812</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
