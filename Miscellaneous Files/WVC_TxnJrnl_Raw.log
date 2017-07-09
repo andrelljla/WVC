@@ -1,0 +1,70 @@
+2017/06/12 14:12:02 - Stage Raw Data - Loading transformation from XML file [/Users/jandrews/Documents/WVC/Working/WVC_TxnJrnl_to_RawInsert.ktr]
+2017/06/12 14:12:02 - Stage Raw Data - Using run configuration [Pentaho local]
+2017/06/12 14:12:02 - Stage Raw Data - Using legacy execution engine
+2017/06/12 14:12:02 - WVC_TxnJrnl_to_RawInsert - Dispatching started for transformation [WVC_TxnJrnl_to_RawInsert]
+2017/06/12 14:12:02 - Prep Inserts.0 - Connected to database [DockerXE_WVC]
+2017/06/12 14:12:03 - Write TxnJrnl Stage Table.0 - Connected to database [DockerXE_WVC_69] (commit=10000)
+2017/06/12 14:12:11 - Extract File Number.0 - linenr 50000
+2017/06/12 14:12:11 - Extract First,Last Names.0 - linenr 50000
+2017/06/12 14:12:11 - Skip Spacer Rows.0 - linenr 50000
+2017/06/12 14:12:12 - Prep Inserts.0 - linenr 50000
+2017/06/12 14:12:12 - Write TxnJrnl Stage Table.0 - linenr 50000
+2017/06/12 14:12:16 - Extract File Number.0 - linenr 100000
+2017/06/12 14:12:16 - Extract First,Last Names.0 - linenr 100000
+2017/06/12 14:12:16 - Skip Spacer Rows.0 - linenr 100000
+2017/06/12 14:12:17 - Prep Inserts.0 - linenr 100000
+2017/06/12 14:12:17 - Write TxnJrnl Stage Table.0 - linenr 100000
+2017/06/12 14:12:20 - Extract File Number.0 - linenr 150000
+2017/06/12 14:12:20 - Extract First,Last Names.0 - linenr 150000
+2017/06/12 14:12:20 - Skip Spacer Rows.0 - linenr 150000
+2017/06/12 14:12:23 - Prep Inserts.0 - linenr 150000
+2017/06/12 14:12:23 - Write TxnJrnl Stage Table.0 - linenr 150000
+2017/06/12 14:12:24 - Extract File Number.0 - linenr 200000
+2017/06/12 14:12:24 - Extract First,Last Names.0 - linenr 200000
+2017/06/12 14:12:24 - Skip Spacer Rows.0 - linenr 200000
+2017/06/12 14:12:27 - Prep Inserts.0 - linenr 200000
+2017/06/12 14:12:27 - Write TxnJrnl Stage Table.0 - linenr 200000
+2017/06/12 14:12:31 - Extract File Number.0 - linenr 250000
+2017/06/12 14:12:31 - Extract First,Last Names.0 - linenr 250000
+2017/06/12 14:12:31 - Skip Spacer Rows.0 - linenr 250000
+2017/06/12 14:12:35 - Prep Inserts.0 - linenr 250000
+2017/06/12 14:12:35 - Write TxnJrnl Stage Table.0 - linenr 250000
+2017/06/12 14:12:35 - Extract File Number.0 - linenr 300000
+2017/06/12 14:12:35 - Extract First,Last Names.0 - linenr 300000
+2017/06/12 14:12:35 - Skip Spacer Rows.0 - linenr 300000
+2017/06/12 14:12:39 - Log Spacer Rows.0 - linenr 50000
+2017/06/12 14:12:39 - Extract File Number.0 - linenr 350000
+2017/06/12 14:12:39 - Extract First,Last Names.0 - linenr 350000
+2017/06/12 14:12:39 - Skip Spacer Rows.0 - linenr 350000
+2017/06/12 14:12:39 - Prep Inserts.0 - linenr 300000
+2017/06/12 14:12:39 - Write TxnJrnl Stage Table.0 - linenr 300000
+2017/06/12 14:12:43 - Extract File Number.0 - linenr 400000
+2017/06/12 14:12:43 - Extract First,Last Names.0 - linenr 400000
+2017/06/12 14:12:43 - Skip Spacer Rows.0 - linenr 400000
+2017/06/12 14:12:44 - Prep Inserts.0 - linenr 350000
+2017/06/12 14:12:44 - Write TxnJrnl Stage Table.0 - linenr 350000
+2017/06/12 14:12:48 - Extract File Number.0 - linenr 450000
+2017/06/12 14:12:48 - Extract First,Last Names.0 - linenr 450000
+2017/06/12 14:12:48 - Skip Spacer Rows.0 - linenr 450000
+2017/06/12 14:12:50 - Prep Inserts.0 - linenr 400000
+2017/06/12 14:12:51 - Write TxnJrnl Stage Table.0 - linenr 400000
+2017/06/12 14:12:52 - Extract File Number.0 - linenr 500000
+2017/06/12 14:12:52 - Extract First,Last Names.0 - linenr 500000
+2017/06/12 14:12:52 - Skip Spacer Rows.0 - linenr 500000
+2017/06/12 14:12:55 - Prep Inserts.0 - linenr 450000
+2017/06/12 14:12:55 - Write TxnJrnl Stage Table.0 - linenr 450000
+2017/06/12 14:12:56 - Extract File Number.0 - linenr 550000
+2017/06/12 14:12:56 - Extract First,Last Names.0 - linenr 550000
+2017/06/12 14:12:56 - Skip Spacer Rows.0 - linenr 550000
+2017/06/12 14:13:00 - Prep Inserts.0 - linenr 500000
+2017/06/12 14:13:00 - Write TxnJrnl Stage Table.0 - linenr 500000
+2017/06/12 14:13:02 - Extract File Number.0 - linenr 600000
+2017/06/12 14:13:02 - Extract First,Last Names.0 - linenr 600000
+2017/06/12 14:13:02 - Skip Spacer Rows.0 - linenr 600000
+2017/06/12 14:13:04 - Microsoft Excel Input.0 - Finished processing (I=634427, O=0, R=0, W=634427, U=0, E=0)
+2017/06/12 14:13:04 - Extract File Number.0 - Finished processing (I=0, O=0, R=634427, W=634427, U=0, E=0)
+2017/06/12 14:13:04 - Extract First,Last Names.0 - Finished processing (I=0, O=0, R=634427, W=634427, U=0, E=0)
+2017/06/12 14:13:04 - Skip Spacer Rows.0 - Finished processing (I=0, O=0, R=634427, W=634427, U=0, E=0)
+2017/06/12 14:13:04 - Log Spacer Rows.0 - Finished processing (I=0, O=91402, R=91401, W=91401, U=0, E=0)
+2017/06/12 14:13:04 - Prep Inserts.0 - Finished processing (I=0, O=543026, R=543026, W=543026, U=0, E=0)
+2017/06/12 14:13:04 - Write TxnJrnl Stage Table.0 - Finished processing (I=0, O=543026, R=543026, W=543026, U=0, E=0)
